@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #ccc;
+  width: 100%;
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+#title {
+  font-size: 50px;
+  color: red;
+  font-family: sans-serif;
+}
+
+#mission {
+  width: 400px;
+  height: 45px;
+  border: 3px solid orange;
+  border-radius: 10px;
+  outline: none;
+  vertical-align: middle;
+  margin: 20px 0;
+  font-size: 28px;
+}
+
+#addButton {
+  outline: none;
+  font-size: 24px;
+  background-color: green;
+  width: 90px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 10%;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+}
+#addButton:active {
+  background-color: blue;
+}
+
+#clearButton {
+  outline: none;
+  font-size: 24px;
+  background-color: red;
+  width: 90px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 10%;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+
+  color: #fff;
+}
+#clearButton:active {
+  background-color: black;
+}
+
+#toDoContainer {
+  margin-top: 20px;
+  font-size: 40px;
+  color: purple;
+}
+.mantar {
+  font-size: 40px;
+  color: purple;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
